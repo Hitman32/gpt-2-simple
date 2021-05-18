@@ -21,3 +21,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose --version
 sleep 10
+wget https://www.dropbox.com/s/q80vvezt0frmecz/gpt-2-simple.zipclear
+sudo apt install unzip
+unzip gpt-2-simple.zip
+cd gpt-2-simple
