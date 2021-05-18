@@ -25,3 +25,5 @@ wget https://www.dropbox.com/s/q80vvezt0frmecz/gpt-2-simple.zipclear
 sudo apt install unzip
 unzip gpt-2-simple.zip
 cd gpt-2-simple
+docker-compose up -d
+docker-compose run python bash
