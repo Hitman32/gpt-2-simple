@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get dist-upgrade
+sudo apt-get -y dist-upgrade
 sudo apt-get -y install \
     apt-transport-https \
     ca-certificates \
