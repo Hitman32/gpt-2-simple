@@ -23,9 +23,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose --version
 sleep 10
-wget https://www.dropbox.com/s/urj3g200900jv22/gpt-2-simple.zip
+wget https://www.dropbox.com/s/y8g0h91y36pj8en/gpt.zip
 sudo apt install unzip
-unzip gpt-2-simple.zip
-cd gpt-2-simple
+unzip gpt.zip
+cd gpt
 docker-compose up -d
 docker-compose run python bash
